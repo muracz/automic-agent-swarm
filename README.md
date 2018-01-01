@@ -11,10 +11,6 @@ agents/unix_alpine/bins
 Fill out the connection details in the docker-compose.yml
 
 ```
-version: '3'
-services:
-  unix_alpine:
-    build: agents/unix_alpine/.
     environment:
       - cp=localhost:2217
       - system=AUTOMIC
