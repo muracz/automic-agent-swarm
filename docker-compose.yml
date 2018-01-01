@@ -1,0 +1,8 @@
+version: '3'
+services:
+  unix_alpine:
+    build: agents/unix_alpine/.
+    environment:
+      - cp=localhost:2217
+      - system=AUTOMIC
+      - prefix=alpine
