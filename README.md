@@ -2,12 +2,13 @@
 Using this wrapper you can spawn a whole fleet of agenst with very little effort.
 
 ## Usage
-Clone this repository
+Clone this repository.
 
-Untar the agent binaries downloaded from Automic Download page into the  directory
+Untar the agent binaries downloaded from Automic Download page into the following directory:
 ````
 agents/unix_alpine/bins
 ````
+
 Fill out the connection details in the docker-compose.yml
 
 ```
