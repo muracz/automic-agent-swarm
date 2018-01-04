@@ -76,9 +76,10 @@ start_Type=fork
 [USERID]
 
 [UC_USER]
+start=ROOT
 
 [VARIABLES]
-UC_EX_JOB_MD=ucxj???m
+UC_EX_JOB_MD=ucxjlx6m
 UC_EX_PATH_BACKUP=../backup/
 UC_EX_PATH_BIN=.
 UC_EX_PATH_JOBREPORT=../temp
