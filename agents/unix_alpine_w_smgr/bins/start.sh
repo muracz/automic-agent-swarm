@@ -10,6 +10,7 @@
 # Set all the necessary variables
 path="/Automic"
 exec="ucxjlx6"
+exec_md="ucxjlx6m"
 smgr="ucybsmgr"
 sufix=$(hostname | cut -c1-8)
 agent="${prefix}_${sufix}"
@@ -31,6 +32,7 @@ cat ${template} | sed -e "s/#AGENT#/${agent}/g" -e "s/#CP#/${cp}/g" -e "s/#SYSTE
 # Set the necesary permissions
 chown root ${path}/agent/bin/${exec}
 chmod 4755 ${path}/agent/bin/${exec}
+chmod 755 ${path}/agent/bin/${exec_md}
 ls -l ${path}/agent/bin/${exec}
 
 # Export the libs

@@ -74,9 +74,9 @@ pam_Open_Session=no
 start_Type=fork
 
 [USERID]
+root=START
 
 [UC_USER]
-start=ROOT
 
 [VARIABLES]
 UC_EX_JOB_MD=ucxjlx6m

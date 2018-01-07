@@ -10,6 +10,7 @@
 # Set all the necessary variables
 path="/Automic"
 exec="ucxjlx6"
+exec="ucxjlx6m"
 sufix=$(hostname | cut -c1-8)
 agent="${prefix}_${sufix}"
 
@@ -30,6 +31,7 @@ cat ${template} | sed -e "s/#AGENT#/${agent}/g" -e "s/#CP#/${cp}/g" -e "s/#SYSTE
 # Set the necesary permissions
 chown root ${path}/bin/${exec}
 chmod 4755 ${path}/bin/${exec}
+chmod 755 ${path}/agent/bin/${exec_md}
 ls -l ${path}/bin/${exec}
 
 # Start the agent
