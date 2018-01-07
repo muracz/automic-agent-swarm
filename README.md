@@ -31,3 +31,6 @@ Based on few quick tests a EC2 instance with 2 Core and 4GB RAM can hold up to 3
 
 ## Limitations
 Keep in mind that on a standard kernel you will not be able to spawn more then 1024 agents on a single machine due to bridge limitations - [More on that](http://sseelam.blogspot.com/2015/10/how-to-run-more-than-1024-docker.html)
+
+## Bugs
+- missing footer in the jobs
