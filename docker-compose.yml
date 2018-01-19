@@ -6,3 +6,10 @@ services:
       - cp=localhost:2217
       - system=AUTOMIC
       - prefix=alpine
+# For agents with smgr
+#  unix_alpine:
+#    build: agents/unix_alpine_w_smgr/.
+#    environment:
+#      - cp=localhost:2217
+#      - system=AUTOMIC
+#      - prefix=alpine

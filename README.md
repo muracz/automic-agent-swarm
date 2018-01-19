@@ -9,6 +9,13 @@ Untar the agent binaries downloaded from Automic Download page into the followin
 agents/unix_alpine/bins
 ````
 
+In case you want to start agent including the service manager untar the agent and service manager binaries downloaded from Automic Download page into the following directories:
+````
+agents/unix_alpine_w_smgr/bins/agent
+````
+````
+agents/unix_alpine_w_smgr/bins/smgr
+````
 Fill out the connection details in the docker-compose.yml
 
 ```
