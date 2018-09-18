@@ -10,7 +10,7 @@
 # Set all the necessary variables
 path="/Automic"
 exec="ucxjlx6"
-exec="ucxjlx6m"
+#exec="ucxjlx6m"
 sufix=$(hostname | cut -c1-8)
 agent="${prefix}_${sufix}"
 

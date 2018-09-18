@@ -67,8 +67,8 @@ processInfo=yes
 TraceFileSize=32M
 
 [PAM]
-libName=libpam.so
-pam_Open_Session=no
+libName=/usr/lib64/libpam.so.0
+;pam_Open_Session=no
 
 [STARTCMD]
 start_Type=fork

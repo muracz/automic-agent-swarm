@@ -1,11 +1,12 @@
 version: '2'
 services:
-  unix_alpine:
-    build: agents/unix_alpine/.
-    environment:
-      - cp=localhost:2217
-      - system=AUTOMIC
-      - prefix=alpine
+    unix_alpine:
+        #   build: agents/unix_alpine/.
+        build: agents/unix_centos/.
+        environment:
+            - cp=192.168.99.100:2217
+            - system=AUTOMIC
+            - prefix=alpine
 # For agents with smgr
 #  unix_alpine:
 #    build: agents/unix_alpine_w_smgr/.
